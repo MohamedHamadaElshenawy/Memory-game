@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Matching Game</title>
+    <meta name="description" content="">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Matching Game</h1>
+        </header>
+
+        <section class="score-panel">
+            <ul class="stars">
+                <li><i id="poor" class="fa fa-star"></i></li>
+                <li><i id="good" class="fa fa-star"></i></li>
+                <li><i id="excllent" class="fa fa-star"></i></li>
+            </ul>
+
+            <span class="moves">3</span> Moves
+            <!--timer-->
+            <section id="timer" style="display: inline-block;
+                                       margin-left: 85px;"> 
+                <span id="days">00</span> 
+                <span id="hours">00</span> 
+                <span id="minutes">00</span> 
+                <span id="seconds">00</span> 
+            </section>
+            
+            <div class="restart">
+        		<i id="repeat" class="fa fa-repeat"></i>
+            </div>
+        </section>
+
+        <ul class="deck">
+            <li class="card" id="a">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card" id="b">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card" id="c">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card" id="d">
+                <i class="fa fa-bolt"></i>
+            </li>
+            <li class="card" id="e">
+                <i class="fa fa-cube"></i>
+            </li>
+            <li class="card" id="f">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card" id="g">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li  class="card" id="h">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="card" id="j">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card" id="k">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card" id="l">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card" id="m">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card" id="n">
+                <i class="fa fa-bolt"></i>
+            </li>
+            <li  class="card" id="o">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="card" id="p">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card" id="q">
+                <i class="fa fa-cube"></i>
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

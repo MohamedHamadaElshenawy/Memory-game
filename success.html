@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+       <meta charset="utf-8">
+        <title>Matching Game</title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/app.css">
+    </head>
+    <body>
+        <div class="solved">
+            <h1>Congratolation</h1>
+            <span id="successMessage">success message</span>
+            <button class="playagain btn btn-success">Play again</button>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/app.js"></script>
+        <script>
+            document.getElementById('successMessage').innerHTML = sessionStorage.getItem("result");;
+        </script>
+    </body>
+</html>
