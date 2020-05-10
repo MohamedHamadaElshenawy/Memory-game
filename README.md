@@ -1,12 +1,12 @@
 #Matching Game
 
-Table of Contents
- -introduction
- -Contributors
+Table of Contents :-
+ introduction.
+ Contributors.
  
- play it from here "https://mohamedhamadaelshenawy.github.io/Memory-game/"
+ play it from here "https://mohamedhamadaelshenawy.github.io/Memory-game/".
 
-Introduction
+Introduction.
 
 The game board consists of sixteen "cards" arranged in a grid.
 The deck is made up of eight different pairs of cards,
@@ -15,7 +15,7 @@ The cards are arranged randomly on the grid with the symbol face down.
 The gameplay rules are very simple: flip over two hidden cards at a time to locate the ones that match!
 
 
-Contributors
+Contributors.
 
 -The player flips one card over to reveal its underlying symbol.
 -The player then turns over a second card, trying to find the corresponding card with the same symbol.
